@@ -113,3 +113,10 @@ jobs:
       kconfig: ${{ needs.process-inputs.outputs.kconfig }}
       branches: ${{ needs.process-inputs.outputs.branches }}
       modules: ${{ needs.process-inputs.outputs.modules }}
+include:
+  - board: seeeduino_xiao_ble
+    shield: totem_left
+  - board: seeeduino_xiao_ble
+    shield: totem_right
+  - board: nice_nano_v2
+    shield: seeeduino_xiao_ble
