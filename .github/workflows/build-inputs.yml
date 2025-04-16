@@ -105,7 +105,6 @@ jobs:
     with:
       board: ${{ needs.process-inputs.outputs.board }}
       shield: ${{ needs.process-inputs.outputs.shield }}
-      shield: settings_reset
       alphas: ${{ needs.process-inputs.outputs.alphas }}
       nav: ${{ needs.process-inputs.outputs.nav }}
       layers: ${{ needs.process-inputs.outputs.layers }}
